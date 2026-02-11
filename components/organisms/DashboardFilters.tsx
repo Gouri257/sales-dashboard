@@ -3,7 +3,7 @@
 import { YearSelector } from "@/components/molecules/YearSelector";
 import { RevenueThresholdFilter } from "@/components/molecules/RevenueThresholdFilter";
 import { Card } from "@/components/atoms/Card";
-import type { Year, ChartType } from "@/types/sales";
+import type { Year } from "@/types/sales";
 
 interface DashboardFiltersProps {
   selectedYears: Year[];

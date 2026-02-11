@@ -20,7 +20,7 @@ import {
 import { Card, CardHeader, CardTitle, CardSubtitle } from "@/components/atoms/Card";
 import { ChartTypeSelector } from "@/components/molecules/ChartTypeSelector";
 import { formatCurrency, YEAR_COLORS } from "@/lib/sales-data";
-import type { MonthlySale, ChartType, Year, YearlySalesData } from "@/types/sales";
+import type { MonthlySale, ChartType, YearlySalesData } from "@/types/sales";
 
 // ─── Custom Tooltip ───────────────────────────────────────────────────────────
 

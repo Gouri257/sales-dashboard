@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/atoms/Button";
 import { Year } from "@/types/sales";
 import { ALL_YEARS, YEAR_COLORS } from "@/lib/sales-data";
 import { cn } from "@/lib/utils";
