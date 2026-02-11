@@ -5,6 +5,7 @@ interface CardProps {
   className?: string;
   variant?: "default" | "elevated" | "bordered";
   padding?: "none" | "sm" | "md" | "lg";
+  style?: React.CSSProperties;
 }
 
 const variantStyles = {
@@ -25,6 +26,7 @@ export function Card({
   className,
   variant = "default",
   padding = "md",
+  style,
 }: CardProps) {
   return (
     <div
@@ -34,6 +36,7 @@ export function Card({
         paddingStyles[padding],
         className
       )}
+      style={style}
     >
       {children}
     </div>
