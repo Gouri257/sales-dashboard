@@ -160,3 +160,13 @@ export const YEAR_COLORS: Record<Year, string> = {
   2023: "#3B82F6",
   2022: "#10B981",
 };
+
+// ADD THIS to the bottom of your existing lib/sales-data.ts file
+// (copy and paste these lines at the very end of the file)
+
+// ── 2024 Monthly Revenue Array ─────────────────────────────────────────────
+// Used by ForecastChart to show 2024 actual vs 2025 forecast side by side
+export const RAW_DATA_2024: number[] = [
+  312_450, 289_300, 378_920, 361_200, 402_780, 438_560,
+  421_300, 445_820, 467_990, 412_340, 489_210, 472_547,
+];

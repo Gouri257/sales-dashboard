@@ -1,0 +1,109 @@
+{
+  "year": 2025,
+  "isForecast": true,
+  "generatedAt": "2026-04-08T12:08:11.514357",
+  "modelMetrics": {
+    "mae": 27670.2,
+    "r2": 0.7357
+  },
+  "totalRevenue": 5401029,
+  "growthRate": 10.4,
+  "monthly": [
+    {
+      "month": "January",
+      "monthShort": "Jan",
+      "revenue": 343280,
+      "units": 4793,
+      "orders": 1364,
+      "isForecast": true
+    },
+    {
+      "month": "February",
+      "monthShort": "Feb",
+      "revenue": 382385,
+      "units": 5339,
+      "orders": 1520,
+      "isForecast": true
+    },
+    {
+      "month": "March",
+      "monthShort": "Mar",
+      "revenue": 414071,
+      "units": 5782,
+      "orders": 1645,
+      "isForecast": true
+    },
+    {
+      "month": "April",
+      "monthShort": "Apr",
+      "revenue": 416422,
+      "units": 5814,
+      "orders": 1655,
+      "isForecast": true
+    },
+    {
+      "month": "May",
+      "monthShort": "May",
+      "revenue": 437671,
+      "units": 6111,
+      "orders": 1739,
+      "isForecast": true
+    },
+    {
+      "month": "June",
+      "monthShort": "Jun",
+      "revenue": 456372,
+      "units": 6372,
+      "orders": 1814,
+      "isForecast": true
+    },
+    {
+      "month": "July",
+      "monthShort": "Jul",
+      "revenue": 487625,
+      "units": 6809,
+      "orders": 1938,
+      "isForecast": true
+    },
+    {
+      "month": "August",
+      "monthShort": "Aug",
+      "revenue": 486449,
+      "units": 6792,
+      "orders": 1933,
+      "isForecast": true
+    },
+    {
+      "month": "September",
+      "monthShort": "Sep",
+      "revenue": 478123,
+      "units": 6676,
+      "orders": 1900,
+      "isForecast": true
+    },
+    {
+      "month": "October",
+      "monthShort": "Oct",
+      "revenue": 508770,
+      "units": 7104,
+      "orders": 2022,
+      "isForecast": true
+    },
+    {
+      "month": "November",
+      "monthShort": "Nov",
+      "revenue": 500523,
+      "units": 6989,
+      "orders": 1989,
+      "isForecast": true
+    },
+    {
+      "month": "December",
+      "monthShort": "Dec",
+      "revenue": 489338,
+      "units": 6833,
+      "orders": 1945,
+      "isForecast": true
+    }
+  ]
+}

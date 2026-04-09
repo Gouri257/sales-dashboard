@@ -1,4 +1,5 @@
 import { DashboardTemplate } from "@/components/templates/DashboardTemplate";
+import ForecastChart from "@/components/organisms/ForecastChart";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,5 +8,12 @@ export const metadata: Metadata = {
 };
 
 export default function DashboardPage() {
-  return <DashboardTemplate />;
+  return (
+    <>
+      <DashboardTemplate />
+      <div className="px-6 pb-10">
+        <ForecastChart />
+      </div>
+    </>
+  );
 }
